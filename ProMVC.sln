@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_TestingDemo.Tests", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_LanguageFeatures", "Ch4_LanguageFeatures\Ch4_LanguageFeatures.csproj", "{55F535C7-449D-4608-A398-1ED9D491C88C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_Razor", "Ch5_Razor\Ch5_Razor.csproj", "{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{55F535C7-449D-4608-A398-1ED9D491C88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F535C7-449D-4608-A398-1ED9D491C88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F535C7-449D-4608-A398-1ED9D491C88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
