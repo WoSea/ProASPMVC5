@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4_LanguageFeatures", "Ch4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_Razor", "Ch5_Razor\Ch5_Razor.csproj", "{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch6_EssentialTools", "Ch6_EssentialTools\Ch6_EssentialTools.csproj", "{60CB1364-EF29-41B0-949F-BAE8028918DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{610601AE-F091-4A3B-9CCA-6BAF5AD34ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

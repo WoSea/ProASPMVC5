@@ -1,0 +1,39 @@
+﻿@using Ch5_Razor.Models
+@model Product[] 
+
+@{
+    ViewBag.Title = "DemoArray";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DemoArray</title>
+</head>
+<body>
+    <div>
+        @if (Model.Length > 0)
+        {
+            <table>
+                <thead><tr><th>Product</th><th>Price</th></tr></thead>
+                <tbody>
+                    @foreach (Product p in Model)
+                    {
+                        <tr>
+                            <td>@p.Name</td>
+                            <td>$@p.Price</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h2>No product data</h2>
+        }
+    </div>
+</body>
+</html>
