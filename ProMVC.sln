@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5_Razor", "Ch5_Razor\Ch5_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch6_EssentialTools", "Ch6_EssentialTools\Ch6_EssentialTools.csproj", "{60CB1364-EF29-41B0-949F-BAE8028918DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch6_EssentialTools.Tests", "Ch6_EssentialTools.Tests\Ch6_EssentialTools.Tests.csproj", "{83B92441-12B8-422B-81C9-640FF1D344D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CB1364-EF29-41B0-949F-BAE8028918DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B92441-12B8-422B-81C9-640FF1D344D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B92441-12B8-422B-81C9-640FF1D344D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B92441-12B8-422B-81C9-640FF1D344D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B92441-12B8-422B-81C9-640FF1D344D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
