@@ -13,9 +13,9 @@ namespace TestingDemo.Tests
     {
         [TestMethod]
         public void CanChangeLoginName()
-        {
-            //Arrange (set up a scenario)
-            User user = new User() { LoginName = "Bob" };
+        { 
+               //Arrange (set up a scenario)
+               User user = new User() { LoginName = "Bob" };
             FakeRepository repositoryParam = new FakeRepository();
             repositoryParam.Add(user);
             AdminController target = new AdminController(repositoryParam);
